@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-   int first, second, *p, *q, sum;
+   int x, y, *p, *q, sum;
 
    printf("Enter two integers to add\n");
-   scanf("%d%d", &first, &second);
+   scanf("%d%d", &x, &y);
 
-   p = &first;
-   q = &second;
+   p = &x;
+   q = &y;
 
    sum = *p + *q;
 
